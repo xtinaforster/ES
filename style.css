@@ -1,0 +1,15 @@
+#squares{
+ height: 30px;
+ width: 30px;
+ background-color: blue;
+ 
+
+}
+#container{
+  display: grid;
+  grid-template-columns: 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
+  grid-column-gap:40px;
+  grid-template-rows: 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
+  grid-row-gap: 40px;
+  
+}
