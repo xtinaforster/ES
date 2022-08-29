@@ -1,6 +1,6 @@
 #squares{
- height: 30px;
- width: 30px;
+ height: 35px;
+ width: 35px;
  background-color: blue;
  
 
@@ -8,14 +8,16 @@
 #container{
   display: grid;
   grid-template-columns: 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
-  grid-column-gap:40px;
+  grid-column-gap:32px;
   grid-template-rows: 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
-  grid-row-gap: 40px;
+  grid-row-gap: 32px;
   
 }
 body{
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+
 }
 #popUp{
   height: 70px;
@@ -23,8 +25,8 @@ body{
 }
 #container2{
   display: grid;
-  grid-template-columns: 2px 2px 2px;
-  grid-column-gap: 70px;
-  grid-row-gap: 70px;
-  grid-template-rows: 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
+  grid-template-columns: 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  
 }
